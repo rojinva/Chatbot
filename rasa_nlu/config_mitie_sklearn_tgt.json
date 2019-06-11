@@ -1,0 +1,6 @@
+{
+  "pipeline": "mitie_sklearn",
+  "mitie_file": "/Users/z002nt3/Work/Softwares/rasa_nlu/data/total_word_feature_extractor.dat",
+  "path" : "/Users/z002nt3/Work/Softwares/rasa_nlu/models",
+  "data" : "./data/examples/rasa/demo-rasa.json"
+}

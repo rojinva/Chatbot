@@ -1,0 +1,6 @@
+version: "2"
+services:
+    corenlp:
+        image: anktksh/corenlp
+        ports:
+         - "9000:9000"

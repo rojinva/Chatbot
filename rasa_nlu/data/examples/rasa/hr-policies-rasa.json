@@ -1,0 +1,760 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What is the process to apply these leaves - PL, CL, Maternity, Paternity and Bereavement? ",
+        "intent": "Leaves",
+        "entities": [
+          {
+            "start": 44,
+            "end": 46,
+            "value": "PL",
+            "entity": "leave"
+          },
+          {
+            "start": 48,
+            "end": 50,
+            "value": "CL",
+            "entity": "leave"
+          },
+          {
+            "start": 52,
+            "end": 61,
+            "value": "Maternity",
+            "entity": "leave"
+          },
+          {
+            "start": 63,
+            "end": 72,
+            "value": "Paternity",
+            "entity": "leave"
+          },
+          {
+            "start": 77,
+            "end": 88,
+            "value": "Bereavement",
+            "entity": "leave"
+          }
+        ]
+      },
+      {
+        "text": "How do I update LOP leaves?",
+        "intent": "Leaves",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "LOP",
+            "entity": "leave"
+          }
+        ]
+      },
+      {
+        "text": "How many leaves can I avail during my notice period? How do I apply for leaves during notice period? ",
+        "intent": "Leaves",
+        "entities": [
+          {
+            "start": 93,
+            "end": 99,
+            "value": "period",
+            "entity": "time"
+          },
+          {
+            "start": 86,
+            "end": 92,
+            "value": "notice",
+            "entity": "leave"
+          }
+        ]
+      },
+      {
+        "text": "My leaves have gone to wrong manager for approval how do I send it to correct manager? ",
+        "intent": "Leaves",
+        "entities": []
+      },
+      {
+        "text": "I applied for the leave but did not avail so how do I cancel my leaves?",
+        "intent": "Leaves",
+        "entities": []
+      },
+      {
+        "text": "How do I claim relocation bonus? ",
+        "intent": "Reimbursements",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "bonus",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "How can I get my tuition reimbursement? What courses are supported by Target under tuition reimbursement? ",
+        "intent": "Reimbursements",
+        "entities": [
+          {
+            "start": 25,
+            "end": 38,
+            "value": "reimbursement",
+            "entity": "money"
+          },
+          {
+            "start": 70,
+            "end": 76,
+            "value": "Target",
+            "entity": "company"
+          },
+          {
+            "start": 83,
+            "end": 90,
+            "value": "tuition",
+            "entity": "study"
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "tuition",
+            "entity": "study"
+          },
+          {
+            "start": 91,
+            "end": 104,
+            "value": "reimbursement",
+            "entity": "money"
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "value": "courses",
+            "entity": "study"
+          }
+        ]
+      },
+      {
+        "text": "How do I get reimbursement for day care bills? ",
+        "intent": "Reimbursements",
+        "entities": [
+          {
+            "start": 13,
+            "end": 26,
+            "value": "reimbursement",
+            "entity": "money"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "day",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "What is my TIP eligibility and what is cut off time to avail it? ",
+        "intent": "Reimbursements",
+        "entities": [
+          {
+            "start": 39,
+            "end": 51,
+            "value": "cut off time",
+            "entity": "period"
+          }
+        ]
+      },
+      {
+        "text": "I am a new joinee. Why is my last month salary not paid? ",
+        "intent": "Salary",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "last month",
+            "entity": "time"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "salary",
+            "entity": "money"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "joinee",
+            "entity": "employee"
+          }
+        ]
+      },
+      {
+        "text": "Why was my last month salary not paid? ",
+        "intent": "Salary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "salary",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "I am a new joiner, why was my full month salary not paid? ",
+        "intent": "Salary",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "joiner",
+            "entity": "employee"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "full month",
+            "entity": "time"
+          },
+          {
+            "start": 41,
+            "end": 47,
+            "value": "salary",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "Where can I get my salary statements and details around salary breakup? ",
+        "intent": "Salary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "salary",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "What are different kinds of loans a TM can avail at Target and what is the process I should follow? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "TM",
+            "entity": "employee"
+          },
+          {
+            "start": 52,
+            "end": 58,
+            "value": "Target",
+            "entity": "company"
+          }
+        ]
+      },
+      {
+        "text": "Can I claim benefits for both the own property and rented accommodation? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "benefits",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "What happens if both the own property and rented accommodation are in same location? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What if I stayed in the rented accommodation and my parents are staying in the own property wherein both are in the same locality? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 52,
+            "end": 59,
+            "value": "parents",
+            "entity": "person"
+          }
+        ]
+      },
+      {
+        "text": "I am in rented accommodation till the month of September and moved to my own property in the month of October. Can I claim benefits for both? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 102,
+            "end": 109,
+            "value": "October",
+            "entity": "time"
+          },
+          {
+            "start": 47,
+            "end": 56,
+            "value": "September",
+            "entity": "time"
+          },
+          {
+            "start": 123,
+            "end": 131,
+            "value": "benefits",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "I booked a flat and have been paying the Pre-EMI interest on the loan. The flat is still under construction. Presently, I stay in a rented house. Can I claim tax benefits on the Pre-EMI interest? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 162,
+            "end": 170,
+            "value": "benefits",
+            "entity": "money"
+          },
+          {
+            "start": 65,
+            "end": 69,
+            "value": "loan",
+            "entity": "money"
+          },
+          {
+            "start": 186,
+            "end": 194,
+            "value": "interest",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "What do you mean by Pre-EMI interest? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "interest",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "What is the EMI? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "EMI",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "My father has taken the loan and the loan has been sanctioned on the basis of my salary. Can I claim the tax rebate and deduction in respect of the interest payments? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "father",
+            "entity": "person"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "loan",
+            "entity": "money"
+          },
+          {
+            "start": 37,
+            "end": 41,
+            "value": "loan",
+            "entity": "money"
+          },
+          {
+            "start": 81,
+            "end": 87,
+            "value": "salary",
+            "entity": "money"
+          },
+          {
+            "start": 148,
+            "end": 156,
+            "value": "interest",
+            "entity": "money"
+          },
+          {
+            "start": 109,
+            "end": 115,
+            "value": "rebate",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "I have started repaying the housing loan I took. However, there is some delay in completing the flat. Can the interest paid by me be claimed as a deduction even in respect of the period prior to the completion of construction? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "loan",
+            "entity": "money"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "housing",
+            "entity": "property"
+          },
+          {
+            "start": 96,
+            "end": 100,
+            "value": "flat",
+            "entity": "property"
+          },
+          {
+            "start": 110,
+            "end": 118,
+            "value": "interest",
+            "entity": "money"
+          },
+          {
+            "start": 146,
+            "end": 155,
+            "value": "deduction",
+            "entity": "money"
+          },
+          {
+            "start": 179,
+            "end": 185,
+            "value": "period",
+            "entity": "time"
+          },
+          {
+            "start": 213,
+            "end": 225,
+            "value": "construction",
+            "entity": "property"
+          }
+        ]
+      },
+      {
+        "text": "Loan and Taxes\tFor claiming benefit on housing loan principal repayment and interest payment is it necessary that the construction of the house / flat be completed?",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 146,
+            "end": 150,
+            "value": "flat",
+            "entity": "property"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "housing",
+            "entity": "property"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "value": "benefit",
+            "entity": "money"
+          },
+          {
+            "start": 52,
+            "end": 61,
+            "value": "principal",
+            "entity": "money"
+          },
+          {
+            "start": 138,
+            "end": 143,
+            "value": "house",
+            "entity": "property"
+          }
+        ]
+      },
+      {
+        "text": "Can I give one single rent receipt to claim HRA exemption?",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 44,
+            "end": 47,
+            "value": "HRA",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "What if I fail to produce my supporting before the last day of tax proof collection? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 63,
+            "end": 66,
+            "value": "tax",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "How One Time Tax calculated? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "Tax",
+            "entity": "money"
+          },
+          {
+            "start": 4,
+            "end": 12,
+            "value": "One Time",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "I have taken a housing loan to acquire a house which is not in the city I reside. I am employed and already own a house in the city where I am residing. Will it be possible for me to get tax benefits in respect of the new housing loan? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "housing",
+            "entity": "property"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "loan",
+            "entity": "money"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "house",
+            "entity": "property"
+          },
+          {
+            "start": 222,
+            "end": 229,
+            "value": "housing",
+            "entity": "property"
+          },
+          {
+            "start": 230,
+            "end": 234,
+            "value": "loan",
+            "entity": "money"
+          }
+        ]
+      },
+      {
+        "text": "I own a house and I am getting the tax benefit in respect of the house loan. Now I am planning to purchase another house. Will the interest on the housing loan taken for the new house qualify for tax benefits? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "house",
+            "entity": "property"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "benefit",
+            "entity": "money"
+          },
+          {
+            "start": 65,
+            "end": 70,
+            "value": "house",
+            "entity": "property"
+          },
+          {
+            "start": 115,
+            "end": 120,
+            "value": "house",
+            "entity": "property"
+          },
+          {
+            "start": 131,
+            "end": 139,
+            "value": "interest",
+            "entity": "money"
+          },
+          {
+            "start": 147,
+            "end": 154,
+            "value": "housing",
+            "entity": "property"
+          },
+          {
+            "start": 178,
+            "end": 183,
+            "value": "house",
+            "entity": "property"
+          }
+        ]
+      },
+      {
+        "text": "I purchased a house and for this purpose took a loan from the bank. I have let out this house and I live in a rented house. Will I be able to claim the tax benefits in respect of the EMI on the housing loan taken for purchase of the property? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "I am co-owner of a property along with my spouse/parent. Can we both claim the benefit? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What is Income tax? Why is it deducted from my salary? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "How can I save income tax? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What are the tax savings instruments in which I can invest? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "How is the tax calculated? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Why there is a difference between the tax shown in computation & deducted in payslip? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What is the component that is taxable and what is the percentage? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Why is tax so high when compared to previous months? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "I have declared my rent for this financial year. But I have not got exemption for the said month. Why? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "My previous employer has not issued form16. Is there any other option? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "How do I declare my investments so that I can avail tax benefits?",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Clarify on exemption for tuition fees paid?",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Can I declare my disabled brothers medical expense? Who are all the dependents for claiming deduction u/s 80DD? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Can I declare the loan repaid amount of my brother’s higher education who is a dependent of mine?",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "I am doing a course on sap / computer course for which I have taken a loan of Rs.50000.Can I declare this amount for deductions? ",
+        "intent": "Loan and Taxes",
+        "entities": [
+          {
+            "start": 78,
+            "end": 81,
+            "value": "Rs.",
+            "entity": "money"
+          },
+          {
+            "start": 106,
+            "end": 112,
+            "value": "amount",
+            "entity": "money"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "course",
+            "entity": "study"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "sap",
+            "entity": "study"
+          },
+          {
+            "start": 29,
+            "end": 44,
+            "value": "computer course",
+            "entity": "study"
+          }
+        ]
+      },
+      {
+        "text": "What are the tax benefits one can avail on a housing loan? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "How much amount can be availed as benefit?",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Will interest on loan taken for repairs, renewals or reconstruction also qualify for the enhanced deduction of Rs 2.0 lakhs?",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Is principal repayment eligible for benefit? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "Will the stamp duty qualify for rebate under section 80C? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What do you mean by self-occupied property? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "What do you mean by let-out property? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      },
+      {
+        "text": "I have obtained a loan from my parents/relative/friends for housing purpose. Can I claim benefits on this loan? ",
+        "intent": "Loan and Taxes",
+        "entities": []
+      }
+    ]
+  }
+}
