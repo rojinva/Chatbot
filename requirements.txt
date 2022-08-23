@@ -7,7 +7,7 @@ spacy==1.8.2
 boto3==1.4.4
 textblob==0.12.0
 botocore==1.5.50
-numpy==1.13.0
+numpy==1.22.0
 requests==2.13.0
 typing==3.6.1
 nltk==3.2.2
