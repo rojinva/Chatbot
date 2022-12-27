@@ -20,7 +20,7 @@ duckling==1.7.2
 protobuf==3.3.0
 pycorenlp==0.3.0
 scipy==0.19.1
-setuptools==36.2.0
+setuptools==65.5.1
 six==1.10.0
 scikit_learn==0.19b2
 sklearn_crfsuite==0.3.6
